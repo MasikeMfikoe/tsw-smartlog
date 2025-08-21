@@ -30,7 +30,8 @@ export default function HomePage() {
             </CardContent>
           </Card>
 
-          <Card>
+      </div>
+    </div>
             <CardHeader>
               <CardTitle>User Management</CardTitle>
               <CardDescription>
