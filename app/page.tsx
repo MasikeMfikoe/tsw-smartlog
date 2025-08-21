@@ -20,8 +20,33 @@ export default function HomePage() {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <Link href="/tracking">
-                <Button className="w-full">
+              <Link href="/tracking" legacyBehavior>
+                <a className="w-full">
+                  <Button className="w-full">
+                    Go to Shipment Tracker
+                  </Button>
+                </a>
+              </Link>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader>
+              <CardTitle>User Management</CardTitle>
+              <CardDescription>
+                Create tracking-only users for your customers
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Link href="/user-creator" legacyBehavior>
+                <a className="w-full">
+                  <Button className="w-full" variant="outline">
+                    Create Tracking User
+                  </Button>
+                </a>
+              </Link>
+            </CardContent>
+          </Card>
                   Go to Shipment Tracker
                 </Button>
               </Link>
