@@ -46,30 +46,4 @@ export default function HomePage() {
                 </a>
               </Link>
             </CardContent>
-          </Card>
-                  Go to Shipment Tracker
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-
-          <Card>
-            <CardHeader>
-              <CardTitle>User Management</CardTitle>
-              <CardDescription>
-                Create tracking-only users for your customers
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="/user-creator">
-                <Button className="w-full" variant="outline">
-                  Create Tracking User
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-        </div>
-      </div>
-    </div>
-  )
 }
